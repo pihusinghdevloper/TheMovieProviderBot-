@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'https://tnshort.net/'))
-STREAM_API = (environ.get('STREAM_API', '23a405eac3227bac71e6beaa4d60db70ce12a781'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'https://gplinks.com/'))
+STREAM_API = (environ.get('STREAM_API', '7407004813:AAEmTDAWoOWT8y1WGZRQU4Gm2Iv4LQW3Md0'))
 STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
