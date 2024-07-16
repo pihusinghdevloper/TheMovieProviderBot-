@@ -2055,7 +2055,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     await query.answer(MSG_ALRT)
 
     
-async def auto_filter(client, msg, spoll=False):
+async def auto_filter(client, msg, spoll=True):
     curr_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
     # reqstr1 = msg.from_user.id if msg.from_user else 0
     # reqstr = await client.get_users(reqstr1)
@@ -2619,7 +2619,7 @@ async def manual_filters(client, message, text=False):
     else:
         return False
 
-async def global_filters(client, message, text=False):
+async def global_filters(client, message, text=True):
     settings = await get_settings(message.chat.id)
     group_id = message.chat.id
     name = text or message.text
