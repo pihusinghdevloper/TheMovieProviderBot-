@@ -1777,7 +1777,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     
   
-    elif query.data == "channels":
+    elif query.data == "channel":
         buttons = [[
             InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/AwaraTeams')
         ],[
