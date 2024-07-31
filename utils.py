@@ -23,7 +23,7 @@ from shortzy import Shortzy
 import http.client
 import json
 
-logger = logging.getLogger(__name_jd💩_)
+logger = logging.getLogger(__name_jd_)
 logger.setLevel(logging.INFO)
 
 BTN_URL_REGEX = re.compile(
