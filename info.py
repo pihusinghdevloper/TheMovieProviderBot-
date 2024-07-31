@@ -71,7 +71,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Filmy_Rohesh')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Filmy_Rohesh') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :•ʀᴏʜᴇsʜ •')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084937269')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002071135878')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MKV_FILES_ROHESH') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -129,7 +129,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002084937269'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002071135878'))
 
 
 
